@@ -1,7 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(236, 238, 241);
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
 }
+a {
+    text-decoration: none;
+}
+
 .content-wrapper {
     display: block;
 }
@@ -13,13 +22,39 @@ body {
 }
 .navigation-container {
     float: right;
-    line-height: 1.5;
 }
 .navigation-column {
     float: left;
-    text-align: right;
+    height: 36px;
+    margin: auto;
+    margin-left: 10px;
+}
+.material-icons.md-15 {
+    font-size: 15px;
+}
+.material-icons.md-32 {
+    font-size: 32px;
+}
+.btn-signin {
+    height: 34px;
+    border: 1px solid #4c4c4c;
+    padding: 0 20px;
+    font-size: 1.125em;
 }
 
+.buttons {
+    background-color: rgb(0, 119, 197);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.buttons > * {
+    vertical-align: middle;
+}
+.buttons > span {
+    padding-right: 0.5em;
+}
 .intuint-logo {
     display: inline-block;
     background-image: url("./images/intuint-logo.png");
