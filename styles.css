@@ -1,3 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.content-wrapper {
+    display: block;
+}
+
+/* Navigation */
+.navigation-wrapper {
+    height: 60px;
+    padding: 10px 30px 10px 30px;
+}
+.navigation-container {
+    float: right;
+    line-height: 1.5;
+}
+.navigation-column {
+    float: left;
+    text-align: right;
+}
+
 .intuint-logo {
     display: inline-block;
     background-image: url("./images/intuint-logo.png");
