@@ -1,7 +1,4 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(236, 238, 241);
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
         sans-serif;
     font-size: 12px;
@@ -10,7 +7,12 @@ body {
 a {
     text-decoration: none;
 }
-
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
 .content-wrapper {
     display: block;
 }
@@ -28,6 +30,19 @@ a {
     height: 36px;
     margin: auto;
     margin-left: 10px;
+}
+.signup-section {
+    text-align: center;
+    margin: auto;
+    width: 380px;
+}
+
+.sign-up-wrapper {
+    background-color: white;
+    border: 1px solid #4c4c4c;
+}
+.gray-background {
+    background-color: rgb(236, 238, 241);
 }
 .material-icons.md-15 {
     font-size: 15px;
