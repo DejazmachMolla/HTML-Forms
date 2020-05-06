@@ -16,6 +16,28 @@ li {
 .content-wrapper {
     display: block;
 }
+.buttons {
+    background-color: rgb(0, 119, 197);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.buttons > * {
+    vertical-align: middle;
+}
+.buttons > span {
+    padding-right: 0.5em;
+}
+.gray-background {
+    background-color: rgb(236, 238, 241);
+}
+.material-icons.md-15 {
+    font-size: 15px;
+}
+.material-icons.md-32 {
+    font-size: 32px;
+}
 
 /* Navigation */
 .navigation-wrapper {
@@ -34,21 +56,7 @@ li {
 .signup-section {
     text-align: center;
     margin: auto;
-    width: 380px;
-}
-
-.sign-up-wrapper {
-    background-color: white;
-    border: 1px solid #4c4c4c;
-}
-.gray-background {
-    background-color: rgb(236, 238, 241);
-}
-.material-icons.md-15 {
-    font-size: 15px;
-}
-.material-icons.md-32 {
-    font-size: 32px;
+    width: 450px;
 }
 .btn-signin {
     height: 34px;
@@ -57,18 +65,10 @@ li {
     font-size: 1.125em;
 }
 
-.buttons {
-    background-color: rgb(0, 119, 197);
-    color: white;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-}
-.buttons > * {
-    vertical-align: middle;
-}
-.buttons > span {
-    padding-right: 0.5em;
+/* Signup Secion */
+.sign-up-wrapper {
+    background-color: white;
+    border: 1px solid #c7c7c7;
 }
 .intuint-logo {
     display: inline-block;
@@ -76,10 +76,30 @@ li {
     width: 118px;
     height: 35px;
 }
+.main-header {
+    padding: 1em 0 0.5em 0;
+}
+.quick-links {
+    padding: 0.5em 0 1em 0;
+}
 .quick-link-icon {
     width: 37px;
     height: 20px;
 }
-.logo-list {
-    display: inline-block;
+.links-list > li {
+    display: inline;
+}
+.links-list > li > * {
+    vertical-align: middle;
+}
+.links-list > li > img {
+    cursor: pointer;
+}
+.links-list > li > a {
+    color: rgb(107, 108, 114);
+    font-size: 20px;
+}
+.sign-up-area {
+    width: 80%;
+    margin: auto;
 }

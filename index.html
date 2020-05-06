@@ -39,91 +39,102 @@
                         ></a>
                     </div>
                 </header>
-                <div>
-                    <ul>
-                        <li class="logo-list">
-                            <a href="https://www.mint.com/">
-                                <img
-                                    src="./images/mint-logo.svg"
-                                    alt=""
-                                    class="quick-link-icon"
-                                />
-                                mint</a
-                            >
+                <div class="quick-links">
+                    <ul class="links-list">
+                        <li>
+                            <img
+                                src="./images/mint-logo.svg"
+                                alt=""
+                                class="quick-link-icon"
+                            />
                         </li>
-                        <li class="logo-list">
+                        <li>
+                            <a href="https://www.mint.com/"> mint</a>
+                        </li>
+                        <li>
+                            <img
+                                src="./images/quickbooks-logo.svg"
+                                alt=""
+                                class="quick-link-icon"
+                            />
+                        </li>
+                        <li>
                             <a href="https://quickbooks.intuit.com/">
-                                <img
-                                    src="./images/quickbooks-logo.svg"
-                                    alt=""
-                                    class="quick-link-icon"
-                                />
                                 quickbooks</a
                             >
                         </li>
-                        <li class="logo-list">
-                            <a href="https://turbotax.intuit.com/">
-                                <img
-                                    src="./images/turbotax-logo.svg"
-                                    alt=""
-                                    class="quick-link-icon"
-                                />
-                                turbotax</a
-                            >
+                        <li>
+                            <img
+                                src="./images/turbotax-logo.svg"
+                                alt=""
+                                class="quick-link-icon"
+                            />
+                        </li>
+                        <li>
+                            <a href="https://turbotax.intuit.com/"> turbotax</a>
                         </li>
                     </ul>
                 </div>
 
                 <section class="sign-up-wrapper sign-up">
-                    <header class="sign-up-header-container">
-                        <span class="sign-up-header"
-                            >Create an Intuit account</span
+                    <div class="sign-up-area">
+                        <header class="sign-up-header-container">
+                            <span class="sign-up-header"
+                                >Create an Intuit account</span
+                            >
+                            <span class="sign-up-sub-header"
+                                >One account for everything Intuit, including
+                                Mint. </span
+                            ><a
+                                href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+                                >Learn more</a
+                            >
+                            <span class="sign-up-sub-header"
+                                >One account for everything Intuit, including
+                                Mint. </span
+                            ><a href="https://accounts.intuit.com/index.html"
+                                >Sign In</a
+                            >
+                        </header>
+                        <form
+                            action="/login"
+                            method="POST"
+                            class="sign-up-form"
                         >
-                        <span class="sign-up-sub-header"
-                            >One account for everything Intuit, including Mint. </span
-                        ><a
-                            href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
-                            >Learn more</a
-                        >
-                        <span class="sign-up-sub-header"
-                            >One account for everything Intuit, including Mint. </span
-                        ><a href="https://accounts.intuit.com/index.html"
-                            >Sign In</a
-                        >
-                    </header>
-                    <form action="/login" method="POST" class="sign-up-form">
-                        <label>
-                            Email address
-                            <input type="email" />
-                        </label>
-                        <label>
-                            Phone (recommended)
-                            <input type="tel" />
-                        </label>
-                        <span
-                            >Standard call, messaging or data rates may
-                            apply.</span
-                        >
-                        <label>
-                            Password
-                            <input type="password" />
-                            <span class="material-icons md-32">
-                                lock_open
-                            </span>
-                        </label>
+                            <label>
+                                Email address
+                                <input type="email" />
+                            </label>
+                            <label>
+                                Phone (recommended)
+                                <input type="tel" />
+                            </label>
+                            <span
+                                >Standard call, messaging or data rates may
+                                apply.</span
+                            >
+                            <label>
+                                Password
+                                <input type="password" />
+                                <span class="material-icons md-32">
+                                    lock_open
+                                </span>
+                            </label>
 
-                        <button type="submit" class="buttons">
-                            <span class="material-icons md-15"> lock </span>
-                            Create Account
-                        </button>
-                    </form>
-                    <footer class="sign-up-footer">
-                        <span
-                            >By clicking Create account, you agree to our
-                            <a href="">Terms</a> and have read and acknowledge
-                            our <a href="">Privacy Statement</a>.</span
-                        >
-                    </footer>
+                            <button type="submit" class="buttons">
+                                <span class="material-icons md-15"> lock </span>
+                                Create Account
+                            </button>
+                        </form>
+                        <footer class="sign-up-footer">
+                            <span
+                                >By clicking Create account, you agree to our
+                                <a href="">Terms</a> and have read and
+                                acknowledge our
+                                <a href="">Privacy Statement</a>.</span
+                            >
+                        </footer>
+                    </div>
                     <div class="sign-up-captcha gray-background">
                         <span
                             >Invisible reCAPTCHA by Google
