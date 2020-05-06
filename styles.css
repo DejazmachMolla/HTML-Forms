@@ -38,6 +38,9 @@ li {
 .material-icons.md-32 {
     font-size: 32px;
 }
+.form-padding {
+    padding-bottom: 1em;
+}
 
 /* Navigation */
 .navigation-wrapper {
@@ -102,4 +105,19 @@ li {
 .sign-up-area {
     width: 80%;
     margin: auto;
+    padding: 3em 0;
+}
+.sign-up-header {
+    color: #4c4c4c;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    display: block;
+}
+.sign-up-sub-header {
+    color: #4c4c4c;
+    font-size: 14px;
+    display: block;
+    font-weight: 200;
+    line-height: 1.2;
 }
