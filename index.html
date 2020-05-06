@@ -78,7 +78,7 @@
 
                 <section class="sign-up-wrapper sign-up">
                     <div class="sign-up-area">
-                        <header class="sign-up-header-container">
+                        <header class="sign-up-header-container form-padding">
                             <span class="sign-up-header form-padding"
                                 >Create an Intuit account</span
                             >
@@ -89,7 +89,7 @@
                                 href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
                                 >Learn more</a
                             >
-                            <span class="sign-up-sub-header form-padding"
+                            <span class="sign-up-sub-header"
                                 >Already have an account?
                                 <a href="https://accounts.intuit.com/index.html"
                                     >Sign In</a
@@ -99,27 +99,29 @@
                         <form
                             action="/login"
                             method="POST"
-                            class="sign-up-form"
+                            class="sign-up-form form-padding"
                         >
-                            <label>
-                                Email address
-                                <input type="email" />
-                            </label>
-                            <label>
-                                Phone (recommended)
-                                <input type="tel" />
-                            </label>
-                            <span
+                            <label class="label-padding"> Email address</label>
+                            <input class="input-style" type="email" />
+
+                            <label class="label-padding">
+                                Phone (recommended)</label
+                            >
+                            <input class="input-style" type="tel" />
+
+                            <span class="phone-input-info"
                                 >Standard call, messaging or data rates may
                                 apply.</span
                             >
-                            <label>
-                                Password
-                                <input type="password" />
-                                <span class="material-icons md-32">
-                                    lock_open
-                                </span>
-                            </label>
+                            <label class="label-padding"> Password</label>
+
+                            <input
+                                class="input-style password-style"
+                                type="password"
+                            />
+                            <span class="material-icons md-24 lock-open-style">
+                                lock_open
+                            </span>
 
                             <button type="submit" class="buttons">
                                 <span class="material-icons md-15"> lock </span>
