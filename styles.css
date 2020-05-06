@@ -1,0 +1,13 @@
+.intuint-logo {
+    display: inline-block;
+    background-image: url("./images/intuint-logo.png");
+    width: 118px;
+    height: 35px;
+}
+.quick-link-icon {
+    width: 37px;
+    height: 20px;
+}
+.logo-list {
+    display: inline-block;
+}
