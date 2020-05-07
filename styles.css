@@ -136,13 +136,9 @@ li {
 .input-style {
     margin-bottom: 1.5em;
     border-radius: 6px;
-    /* width: 100%; */
-
     height: 34px;
-    width: 320px;
+    width: 100%;
     min-width: 160px;
-    padding-left: 8px;
-    padding-right: 6px;
     border: 1px solid #d8d8d8;
     color: #000000;
     outline: none;
@@ -189,4 +185,8 @@ li {
 .lock-open-style > img {
     margin: 3px 3px 0 9px;
     width: 24px;
+}
+.sign-up-form > button {
+    width: 320px;
+    text-align: center;
 }
