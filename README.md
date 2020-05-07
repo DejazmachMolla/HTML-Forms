@@ -1,57 +1,31 @@
-# Project Name
+# HTML Forms
 
-> One paragraph statement about the project.
+> Clone of Mint.com signup page to practice working with HTML forms.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](https://i.imgur.com/M4P1x8G.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+-   HTML
+-   CSS
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**Open index.html in the browser**
 
 ## Authors
 
-👤 **Author1**
+👤 **@alancphilpott**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-   Github: [@githubhandle](https://github.com/alancphilpott)
+-   Twitter: [@twitterhandle](https://twitter.com/alanphilpott_)
+-   Linkedin: [linkedin](https://www.linkedin.com/in/philpottalan/)
 
-👤 **Author2**
+👤 **@DejazmachMolla**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+-   Github: [@githubhandle](https://github.com/DejazmachMolla)
+-   Twitter: [@twitterhandle](https://twitter.com/DJATSS)
+-   Linkedin: [linkedin](https://www.linkedin.com/in/dejazmach-getachew-027aabaa/)
 
 ## 🤝 Contributing
 
@@ -65,9 +39,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+-   Microverse HTML & CSS3 project.
 
 ## 📝 License
 
