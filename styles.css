@@ -109,6 +109,7 @@ li {
     width: 80%;
     margin: auto;
     padding: 3em 0;
+    font-size: 14px;
 }
 .sign-up-header {
     color: #4c4c4c;
@@ -138,12 +139,11 @@ li {
     border-radius: 6px;
     height: 34px;
     width: 100%;
-    min-width: 160px;
+    /* min-width: 160px; */
     border: 1px solid #d8d8d8;
     color: #000000;
     outline: none;
     font-size: 1.2em;
-    -webkit-border-radius: 3px;
     border-radius: 3px;
     line-height: 1.3em;
     border-top-right-radius: 0;
@@ -170,7 +170,7 @@ li {
     margin-bottom: 1.5em;
 }
 .password-style {
-    width: 80%;
+    width: 91%;
     border-right: none;
 }
 .lock-open-style {
@@ -187,6 +187,9 @@ li {
     width: 24px;
 }
 .sign-up-form > button {
-    width: 320px;
+    /* width: 320px; */
     text-align: center;
+    width: 100%;
+    font-size: 1.125em;
+    padding: 15px 0;
 }
