@@ -228,3 +228,13 @@ li {
 .copyright-text {
     display: block;
 }
+
+@media (max-width: 768px) {
+    .navigation-wrapper {
+        display: none;
+    }
+
+    .main-footer {
+        width: 90%;
+    }
+}
