@@ -207,3 +207,24 @@ li {
     font-size: 10px;
     color: #8d9096;
 }
+.main-footer {
+    text-align: center;
+    padding: 1em 0 0.75em 0;
+    color: #8d9096;
+    margin: auto;
+    width: 80%;
+}
+.main-footer a {
+    color: #8d9096;
+}
+.main-footer a:hover {
+    text-decoration: underline;
+}
+.logo-list {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.copyright-text {
+    display: block;
+}
