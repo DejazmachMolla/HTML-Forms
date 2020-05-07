@@ -1,5 +1,10 @@
 body {
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+  font-family: 
+    "AvenirNext", 
+    Avenir, 
+    "Helvetica Neue", 
+    Helvetica, 
+    Arial,
     sans-serif;
   font-size: 12px;
   line-height: 1.5;
@@ -155,14 +160,16 @@ li {
   border: 1px solid #52a8ec;
   border-right: none;
   outline: none;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+  box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.075) inset,
     0 0 8px rgba(82, 168, 236, 0.6);
 }
 .input-style:focus + span.lock-open-style {
   border: 1px solid #52a8ec;
   border-left: none;
   outline: none;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+  box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.075) inset,
     0 0 8px rgba(82, 168, 236, 0.6);
 }
 .phone-input-info {
