@@ -118,6 +118,16 @@ li {
   height: 20px;
 }
 
+.lock-open-style > img {
+  margin: 3px 0 0 9px;
+  width: 24px;
+  padding-right: 5px;
+}
+
+.main-footer a {
+  color: #8d9096;
+}
+
 .links-list > li {
   display: inline;
 }
@@ -167,13 +177,13 @@ li {
 .sign-up-form label {
   display: block;
 }
+
 .label-padding {
   padding-bottom: 0.7em;
 }
 
 .input-style {
   margin-bottom: 1.5em;
-  border-radius: 6px;
   height: 34px;
   width: 100%;
   border: 1px solid #d8d8d8;
@@ -226,12 +236,6 @@ li {
   padding: 2px 0 0 0;
 }
 
-.lock-open-style > img {
-  margin: 3px 0 0 9px;
-  width: 24px;
-  padding-right: 5px;
-}
-
 .sign-up-form > button {
   /* width: 320px; */
   text-align: center;
@@ -259,10 +263,6 @@ li {
   color: #8d9096;
   margin: auto;
   width: 80%;
-}
-
-.main-footer a {
-  color: #8d9096;
 }
 
 .main-footer a:hover {
