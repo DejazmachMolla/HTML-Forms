@@ -1,0 +1,289 @@
+body {
+  font-family:
+    "AvenirNext",
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 119, 197);
+}
+
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  display: block;
+}
+
+.buttons {
+  background-color: rgb(0, 119, 197);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons > * {
+  vertical-align: middle;
+}
+
+.buttons > span {
+  padding-right: 0.5em;
+}
+
+.gray-background {
+  background-color: rgb(236, 238, 241);
+}
+
+.material-icons.md-15 {
+  font-size: 15px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-32 {
+  font-size: 32px;
+}
+
+.form-padding {
+  padding-bottom: 1.5em;
+}
+
+/* Navigation */
+.navigation-wrapper {
+  height: 60px;
+  padding: 10px 30px 10px 30px;
+}
+
+.navigation-container {
+  float: right;
+}
+
+.navigation-column {
+  float: left;
+  height: 36px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.signup-section {
+  text-align: center;
+  margin: auto;
+  width: 450px;
+}
+
+.btn-signin {
+  height: 34px;
+  border: 1px solid #4c4c4c;
+  padding: 0 20px;
+  font-size: 1.125em;
+}
+
+/* Signup Secion */
+.sign-up-wrapper {
+  background-color: white;
+  border: 1px solid #c7c7c7;
+}
+
+.intuint-logo {
+  display: inline-block;
+  background-image: url("./images/intuint-logo.png");
+  width: 118px;
+  height: 35px;
+}
+
+.main-header {
+  padding: 1em 0 0.5em 0;
+}
+
+.quick-links {
+  padding: 0.5em 0 1em 0;
+}
+
+.quick-link-icon {
+  width: 37px;
+  height: 20px;
+}
+
+.lock-open-style > img {
+  margin: 3px 0 0 9px;
+  width: 24px;
+  padding-right: 5px;
+}
+
+.main-footer a {
+  color: #8d9096;
+}
+
+.links-list > li {
+  display: inline;
+}
+
+.links-list > li > * {
+  vertical-align: middle;
+}
+
+.links-list > li > img {
+  cursor: pointer;
+}
+
+.links-list > li > a {
+  color: rgb(107, 108, 114);
+  font-size: 20px;
+}
+
+.sign-up-area {
+  width: 80%;
+  margin: auto;
+  padding: 3em 0;
+  font-size: 14px;
+}
+
+.sign-up-header {
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  display: inline-block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.sign-up-sub-header {
+  color: #4c4c4c;
+  font-size: 14px;
+  display: block;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+.sign-up-form {
+  text-align: left;
+}
+
+.sign-up-form label {
+  display: block;
+}
+
+.label-padding {
+  padding-bottom: 0.7em;
+}
+
+.input-style {
+  margin-bottom: 1.5em;
+  height: 34px;
+  width: 100%;
+  border: 1px solid #d8d8d8;
+  color: #000;
+  outline: none;
+  font-size: 1.2em;
+  border-radius: 3px;
+  line-height: 1.3em;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-style:focus {
+  border: 1px solid #52a8ec;
+  border-right: none;
+  outline: none;
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.input-style:focus + span.lock-open-style {
+  border: 1px solid #52a8ec;
+  border-left: none;
+  outline: none;
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.phone-input-info {
+  display: block;
+  margin-top: -1.5em;
+  font-size: 10px;
+  margin-bottom: 1.5em;
+}
+
+.password-style {
+  width: 91%;
+  border-right: none;
+}
+
+.lock-open-style {
+  position: absolute;
+  display: inline-block;
+  border: 1px solid #d8d8d8;
+  border-left: none;
+  height: 34px;
+  margin-left: -3px;
+  padding: 2px 0 0 0;
+}
+
+.sign-up-form > button {
+  /* width: 320px; */
+  text-align: center;
+  width: 100%;
+  font-size: 1.125em;
+  padding: 15px 0;
+}
+
+.sign-up-footer {
+  padding-top: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: rgb(107, 108, 114);
+}
+
+.sign-up-captcha {
+  padding: 20px 0;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+.main-footer {
+  text-align: center;
+  padding: 1em 0 0.75em 0;
+  color: #8d9096;
+  margin: auto;
+  width: 80%;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+.logo-list {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.copyright-text {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navigation-wrapper {
+    display: none;
+  }
+
+  .main-footer {
+    width: 90%;
+  }
+}
